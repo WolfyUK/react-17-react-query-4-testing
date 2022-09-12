@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test-query": "jest './src/Query.test.js' -t 'useIasQuery'"
+    "test-query": "react-scripts test --testNamePattern=useIasQuery"
   },
   "eslintConfig": {
     "extends": [
@@ -37,8 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "jest":{
-    "testEnvironment": "jsdom"
   }
 }
